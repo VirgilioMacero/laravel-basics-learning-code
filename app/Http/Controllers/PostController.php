@@ -25,7 +25,7 @@ class PostController extends Controller
 
         public function edit(Post $post){
 
-            return view();
+            return view('post.edit',['post'=>$post]);
 
         }
 
