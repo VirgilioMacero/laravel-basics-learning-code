@@ -15,7 +15,7 @@
     </a>
 
     <br>
-    <span>{{$post->user->name}}</span>
+    <span>{{$post->$user->$name}}</span>
 
 </p>
 
